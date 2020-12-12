@@ -1,0 +1,358 @@
+<HTML>
+<HEAD>
+<TITLE>VideoProcessing.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/VideoProcessing.framework
+300 classes
+
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/Face.h">Face.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPActionAnalyzer.h">VCPActionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPAnalysisProgressQuery.h">VCPAnalysisProgressQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPAsset.h">VCPAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPAudioAnalyzer.h">VCPAudioAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPAudioClassifier.h">VCPAudioClassifier.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPBlurAnalyzer.h">VCPBlurAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPBoundingBox.h">VCPBoundingBox.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNBlock.h">VCPCNNBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNBlurAnalyzer.h">VCPCNNBlurAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNBlurAnalyzerEspresso.h">VCPCNNBlurAnalyzerEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNBlurAnalyzerMPS.h">VCPCNNBlurAnalyzerMPS.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNConvBlock.h">VCPCNNConvBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNConvBlockBinary.h">VCPCNNConvBlockBinary.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNConvBlockGPU.h">VCPCNNConvBlockGPU.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNConvBlockScalar.h">VCPCNNConvBlockScalar.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNConvBlockVector.h">VCPCNNConvBlockVector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNData.h">VCPCNNData.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNDataGPU.h">VCPCNNDataGPU.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNEspressoContext.h">VCPCNNEspressoContext.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFaceLandmarkDetector.h">VCPCNNFaceLandmarkDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFaceLandmarkDetectorEspresso.h">VCPCNNFaceLandmarkDetectorEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFaceLandmarkDetectorMPS.h">VCPCNNFaceLandmarkDetectorMPS.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFastGestureRecognition.h">VCPCNNFastGestureRecognition.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFlattenBlock.h">VCPCNNFlattenBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFullConnectionBlock.h">VCPCNNFullConnectionBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFullConnectionBlockGPU.h">VCPCNNFullConnectionBlockGPU.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFullConnectionBlockScalar.h">VCPCNNFullConnectionBlockScalar.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNGazeAnalysis.h">VCPCNNGazeAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNHandKeypointsDetector.h">VCPCNNHandKeypointsDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNHandKeypointsDetectorEspresso.h">VCPCNNHandKeypointsDetectorEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNHandsDetector.h">VCPCNNHandsDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNHandsDetectorEspresso.h">VCPCNNHandsDetectorEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNMPSDataSource.h">VCPCNNMPSDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNMetalContext.h">VCPCNNMetalContext.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNModel.h">VCPCNNModel.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNModelEspresso.h">VCPCNNModelEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPersonDetector.h">VCPCNNPersonDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPersonKeypointsDetector.h">VCPCNNPersonKeypointsDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPetsDetector.h">VCPCNNPetsDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPetsDetectorEspresso.h">VCPCNNPetsDetectorEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoolingBlock.h">VCPCNNPoolingBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoolingBlockGPU.h">VCPCNNPoolingBlockGPU.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoolingBlockScalar.h">VCPCNNPoolingBlockScalar.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoolingBlockVector.h">VCPCNNPoolingBlockVector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoseEstimator.h">VCPCNNPoseEstimator.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoseEstimatorEspresso.h">VCPCNNPoseEstimatorEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoseEstimatorMPS.h">VCPCNNPoseEstimatorMPS.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNSmileDetector.h">VCPCNNSmileDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNSmileDetectorEspresso.h">VCPCNNSmileDetectorEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNSmileDetectorMPS.h">VCPCNNSmileDetectorMPS.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCallerIdentificationResult.h">VCPCallerIdentificationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCaptureAnalysisSession.h">VCPCaptureAnalysisSession.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPClassification.h">VCPClassification.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPClientDatabaseManager.h">VCPClientDatabaseManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCompactResult.h">VCPCompactResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPContentAnalysis.h">VCPContentAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCtrTracker.h">VCPCtrTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPDatabaseBatchIterator.h">VCPDatabaseBatchIterator.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPDatabaseReader.h">VCPDatabaseReader.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPDefaultPhotoLibraryManager.h">VCPDefaultPhotoLibraryManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPDeviceInformation.h">VCPDeviceInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPDownloadManager.h">VCPDownloadManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPEdgeDetector.h">VCPEdgeDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPEffectsAnalyzer.h">VCPEffectsAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPEvent.h">VCPEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPExifAnalyzer.h">VCPExifAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPExpressionSegment.h">VCPExpressionSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFace.h">VCPFace.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceAnalyzer.h">VCPFaceAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceAnchor.h">VCPFaceAnchor.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceClusterer.h">VCPFaceClusterer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceCropGenerator.h">VCPFaceCropGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceCropManager.h">VCPFaceCropManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceCropSourceDescriptor.h">VCPFaceCropSourceDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceDetectionRange.h">VCPFaceDetectionRange.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceGeometry.h">VCPFaceGeometry.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceMerger.h">VCPFaceMerger.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFacePair.h">VCPFacePair.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceProcessingServiceWorker.h">VCPFaceProcessingServiceWorker.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceRecognitionTask.h">VCPFaceRecognitionTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceShapeModel.h">VCPFaceShapeModel.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceTensorModel.h">VCPFaceTensorModel.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceTimeFace.h">VCPFaceTimeFace.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceTimePersistentStore.h">VCPFaceTimePersistentStore.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceTimeSession.h">VCPFaceTimeSession.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceUtils.h">VCPFaceUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceVisionIntegrating.h">VCPFaceVisionIntegrating.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFingerprint.h">VCPFingerprint.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFrameAnalysisStats.h">VCPFrameAnalysisStats.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFrameScoreFilter.h">VCPFrameScoreFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFullAnalysisURLProcessingTask.h">VCPFullAnalysisURLProcessingTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFullVideoAnalyzer.h">VCPFullVideoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPGaborFilter.h">VCPGaborFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPGeneralCanceller.h">VCPGeneralCanceller.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHandObservation.h">VCPHandObservation.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHandPoseImageRequest.h">VCPHandPoseImageRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHandPoseVideoRequest.h">VCPHandPoseVideoRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHomeFaceIdentificationTask.h">VCPHomeFaceIdentificationTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHomeKitAnalysisService.h">VCPHomeKitAnalysisService.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHomeKitAnalysisSession.h">VCPHomeKitAnalysisSession.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHomeKitMotionAnalyzer.h">VCPHomeKitMotionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHomeKitSessionExportedObject.h">VCPHomeKitSessionExportedObject.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHomeResidentMaintenanceTask.h">VCPHomeResidentMaintenanceTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHoughTransform.h">VCPHoughTransform.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHuman.h">VCPHuman.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHumanPoseImageRequest.h">VCPHumanPoseImageRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHumanPoseVideoRequest.h">VCPHumanPoseVideoRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageAnalyzer.h">VCPImageAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageBlurAnalyzer.h">VCPImageBlurAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageCompositionAnalyzer.h">VCPImageCompositionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageConverter.h">VCPImageConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageDescriptor.h">VCPImageDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageExposureAnalyzer.h">VCPImageExposureAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageExposurePreAnalyzer.h">VCPImageExposurePreAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageFaceDetector.h">VCPImageFaceDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageFaceExpressionAnalyzer.h">VCPImageFaceExpressionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageFaceQualityAnalyzer.h">VCPImageFaceQualityAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageHandsAnalyzer.h">VCPImageHandsAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageHumanPoseAnalyzer.h">VCPImageHumanPoseAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageHumanPoseAnalyzerTopDown.h">VCPImageHumanPoseAnalyzerTopDown.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageLivePhotoBlurAnalyzer.h">VCPImageLivePhotoBlurAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageManager.h">VCPImageManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageMotionFlowAnalyzer.h">VCPImageMotionFlowAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImagePetsAnalyzer.h">VCPImagePetsAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageQualityAnalyzer.h">VCPImageQualityAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageSaliencyAnalyzer.h">VCPImageSaliencyAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageSaliencyAnalyzerBinary.h">VCPImageSaliencyAnalyzerBinary.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageSaliencyAnalyzerFull.h">VCPImageSaliencyAnalyzerFull.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageSaliencyAnalyzerFullEspresso.h">VCPImageSaliencyAnalyzerFullEspresso.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPInMemoryAVAsset.h">VCPInMemoryAVAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPInterAssetAnalyzer.h">VCPInterAssetAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPInternetReachability.h">VCPInternetReachability.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPJunkAnalyzer.h">VCPJunkAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPKeypoint.h">VCPKeypoint.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLandmarkValidator.h">VCPLandmarkValidator.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLightMotionAnalyzer.h">VCPLightMotionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLightVideoAnalyzer.h">VCPLightVideoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLivePhotoKeyFrameAnalyzer.h">VCPLivePhotoKeyFrameAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLoaned.h">VCPLoaned.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLogManager.h">VCPLogManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLoudnessAnalyzer.h">VCPLoudnessAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMABaseTask.h">VCPMABaseTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMediaAnalysisService.h">VCPMediaAnalysisService.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMediaAnalyzer.h">VCPMediaAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMergeCandidatePair.h">VCPMergeCandidatePair.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMetaSegment.h">VCPMetaSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMetaTrackDecoder.h">VCPMetaTrackDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMotionFlowSubtleMotionAnalyzer.h">VCPMotionFlowSubtleMotionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMovieAnalyzer.h">VCPMovieAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMovieAssetWriter.h">VCPMovieAssetWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMovieCurationAnalyzer.h">VCPMovieCurationAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMovieCurationResults.h">VCPMovieCurationResults.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMovieHighlight.h">VCPMovieHighlight.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMovieHighlightAnalyzer.h">VCPMovieHighlightAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMovieHighlightResult.h">VCPMovieHighlightResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPObjectPool.h">VCPObjectPool.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPersonBuilder.h">VCPPersonBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPersonObservation.h">VCPPersonObservation.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPetsRegion.h">VCPPetsRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPhotoAnalyzer.h">VCPPhotoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPhotosAsset.h">VCPPhotosAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPhotosPersistenceDelegate.h">VCPPhotosPersistenceDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPhotosQuickFaceIdentificationLibraryProcessingTask.h">VCPPhotosQuickFaceIdentificationLibraryProcessingTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPhotosQuickFaceIdentificationManager.h">VCPPhotosQuickFaceIdentificationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPhotosSceneprintAssetProcessingTask.h">VCPPhotosSceneprintAssetProcessingTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPnPSolver.h">VCPPnPSolver.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPreAnalyzer.h">VCPPreAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPriorityAnalysis.h">VCPPriorityAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProcessingStatusEntry.h">VCPProcessingStatusEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoAssetAnalysis.h">VCPProtoAssetAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoBounds.h">VCPProtoBounds.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoClassification.h">VCPProtoClassification.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageBlurResult.h">VCPProtoImageBlurResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageCompositionResult.h">VCPProtoImageCompositionResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageExposureResult.h">VCPProtoImageExposureResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageFaceResult.h">VCPProtoImageFaceResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageFeatureResult.h">VCPProtoImageFeatureResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageHumanPoseResult.h">VCPProtoImageHumanPoseResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageJunkResult.h">VCPProtoImageJunkResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImagePetsFaceResult.h">VCPProtoImagePetsFaceResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImagePetsResult.h">VCPProtoImagePetsResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageSaliencyResult.h">VCPProtoImageSaliencyResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageSceneprintResult.h">VCPProtoImageSceneprintResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoImageShotTypeResult.h">VCPProtoImageShotTypeResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLine.h">VCPProtoLine.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoEffectsRecipe.h">VCPProtoLivePhotoEffectsRecipe.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoEffectsResult.h">VCPProtoLivePhotoEffectsResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoFrameInstruction.h">VCPProtoLivePhotoFrameInstruction.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoKeyFrameFaceResult.h">VCPProtoLivePhotoKeyFrameFaceResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoKeyFrameResult.h">VCPProtoLivePhotoKeyFrameResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoKeyFrameStillResult.h">VCPProtoLivePhotoKeyFrameStillResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoRecommendationResult.h">VCPProtoLivePhotoRecommendationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoSharpnessResult.h">VCPProtoLivePhotoSharpnessResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoLivePhotoVariationParams.h">VCPProtoLivePhotoVariationParams.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieActivityLevelResult.h">VCPProtoMovieActivityLevelResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieApplauseResult.h">VCPProtoMovieApplauseResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieBabbleResult.h">VCPProtoMovieBabbleResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieCameraMotionResult.h">VCPProtoMovieCameraMotionResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieCheeringResult.h">VCPProtoMovieCheeringResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieClassificationResult.h">VCPProtoMovieClassificationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieFaceResult.h">VCPProtoMovieFaceResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieFaceprintResult.h">VCPProtoMovieFaceprintResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieFeatureResult.h">VCPProtoMovieFeatureResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieFineSubjectMotionResult.h">VCPProtoMovieFineSubjectMotionResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieHighlightResult.h">VCPProtoMovieHighlightResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieHumanActionResult.h">VCPProtoMovieHumanActionResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieHumanPoseResult.h">VCPProtoMovieHumanPoseResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieInterestingnessResult.h">VCPProtoMovieInterestingnessResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieLaughterResult.h">VCPProtoMovieLaughterResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieLoudnessResult.h">VCPProtoMovieLoudnessResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieMovingObjectResult.h">VCPProtoMovieMovingObjectResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieMusicResult.h">VCPProtoMovieMusicResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieObstructionResult.h">VCPProtoMovieObstructionResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieOrientationResult.h">VCPProtoMovieOrientationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMoviePetsFaceResult.h">VCPProtoMoviePetsFaceResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMoviePetsResult.h">VCPProtoMoviePetsResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMoviePreEncodeResult.h">VCPProtoMoviePreEncodeResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieQualityResult.h">VCPProtoMovieQualityResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieSaliencyResult.h">VCPProtoMovieSaliencyResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieSceneResult.h">VCPProtoMovieSceneResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieSceneprintResult.h">VCPProtoMovieSceneprintResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieStabilizationRecipe.h">VCPProtoMovieStabilizationRecipe.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieStabilizationResult.h">VCPProtoMovieStabilizationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieSubjectMotionResult.h">VCPProtoMovieSubjectMotionResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieSubtleMotionResult.h">VCPProtoMovieSubtleMotionResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieSummaryResult.h">VCPProtoMovieSummaryResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieUtteranceResult.h">VCPProtoMovieUtteranceResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoMovieVoiceResult.h">VCPProtoMovieVoiceResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoPoint.h">VCPProtoPoint.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoTime.h">VCPProtoTime.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoTimeRange.h">VCPProtoTimeRange.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPProtoVideoKeyFrame.h">VCPProtoVideoKeyFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPRTLandmarkDetector.h">VCPRTLandmarkDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPRealTimeAnalysisService.h">VCPRealTimeAnalysisService.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPRequest.h">VCPRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSaliencyRegion.h">VCPSaliencyRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSceneChangeAnalyzer.h">VCPSceneChangeAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSceneChangeSegment.h">VCPSceneChangeSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSceneProcessingImageManager.h">VCPSceneProcessingImageManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSceneTaxonomy.h">VCPSceneTaxonomy.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSceneprintDescriptor.h">VCPSceneprintDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSegment.h">VCPSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPShareSheetAssetProcessingTask.h">VCPShareSheetAssetProcessingTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSharedInstanceManager.h">VCPSharedInstanceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSideCarMetal.h">VCPSideCarMetal.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSongDetector.h">VCPSongDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPSoundDetector.h">VCPSoundDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPTaskProcessingService.h">VCPTaskProcessingService.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPTimeMeasurement.h">VCPTimeMeasurement.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPTimer.h">VCPTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPTrimAnalyzer.h">VCPTrimAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPURLAsset.h">VCPURLAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVanishingPointDetector.h">VCPVanishingPointDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideMetaOrientationAnalyzer.h">VCPVideMetaOrientationAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoActivityAnalyzer.h">VCPVideoActivityAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoActivityDescriptor.h">VCPVideoActivityDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoAnalyzer.h">VCPVideoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoChatAnalysis.h">VCPVideoChatAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoFaceDetector.h">VCPVideoFaceDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoFaceMeshAnalyzer.h">VCPVideoFaceMeshAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoFacePoseAnalyzer.h">VCPVideoFacePoseAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoFacePoseFilter.h">VCPVideoFacePoseFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoFullFaceDetector.h">VCPVideoFullFaceDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoGlobalAnalyzer.h">VCPVideoGlobalAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoGyroStabilizer.h">VCPVideoGyroStabilizer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoHumanActionAnalyzer.h">VCPVideoHumanActionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoHumanActionClassifier.h">VCPVideoHumanActionClassifier.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoKeyFrame.h">VCPVideoKeyFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoKeyFrameAnalyzer.h">VCPVideoKeyFrameAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoKeyFrameResult.h">VCPVideoKeyFrameResult.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoLightFaceDetector.h">VCPVideoLightFaceDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaAnalyzer.h">VCPVideoMetaAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaFaceAnalyzer.h">VCPVideoMetaFaceAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaFocusAnalyzer.h">VCPVideoMetaFocusAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaFocusSegment.h">VCPVideoMetaFocusSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaLensSwitchAnalyzer.h">VCPVideoMetaLensSwitchAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaLivePhotoMetaAnalyzer.h">VCPVideoMetaLivePhotoMetaAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaMotionAnalyzer.h">VCPVideoMetaMotionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaMotionSegment.h">VCPVideoMetaMotionSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoObjectTracker.h">VCPVideoObjectTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoPetsAnalyzer.h">VCPVideoPetsAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoPixelStabilizer.h">VCPVideoPixelStabilizer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoProcessor.h">VCPVideoProcessor.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoProcessorNode.h">VCPVideoProcessorNode.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoProcessorSession.h">VCPVideoProcessorSession.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoSaliencyAnalyzer.h">VCPVideoSaliencyAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoSceneClassifier.h">VCPVideoSceneClassifier.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoStabilizationAssetProcessingTask.h">VCPVideoStabilizationAssetProcessingTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoStabilizer.h">VCPVideoStabilizer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoTrackDecoder.h">VCPVideoTrackDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoTrackStandardDecoder.h">VCPVideoTrackStandardDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoTrackSubsamplingDecoder.h">VCPVideoTrackSubsamplingDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoTrackSyncDecoder.h">VCPVideoTrackSyncDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVisualIntelligenceAnalysisService.h">VCPVisualIntelligenceAnalysisService.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVoiceDetector.h">VCPVoiceDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVoiceDetectorV2.h">VCPVoiceDetectorV2.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVoiceOverAssetProcessingTask.h">VCPVoiceOverAssetProcessingTask.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVoiceOverService.h">VCPVoiceOverService.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVoteStats.h">VCPVoteStats.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

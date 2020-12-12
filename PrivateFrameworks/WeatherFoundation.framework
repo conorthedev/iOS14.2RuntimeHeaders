@@ -1,0 +1,170 @@
+<HTML>
+<HEAD>
+<TITLE>WeatherFoundation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WeatherFoundation.framework
+112 classes
+
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAPIConfigurationFactory.h">WFAPIConfigurationFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScale.h">WFAQIScale.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleATMO.h">WFAQIScaleATMO.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCAQI.h">WFAQIScaleCAQI.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategory.h">WFAQIScaleCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategoryATMO.h">WFAQIScaleCategoryATMO.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategoryCAQI.h">WFAQIScaleCategoryCAQI.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategoryDAQI.h">WFAQIScaleCategoryDAQI.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategoryEPA.h">WFAQIScaleCategoryEPA.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategoryHJ6332012.h">WFAQIScaleCategoryHJ6332012.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategoryIMECA.h">WFAQIScaleCategoryIMECA.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategoryNAQI.h">WFAQIScaleCategoryNAQI.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleCategoryUBA.h">WFAQIScaleCategoryUBA.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleDAQI.h">WFAQIScaleDAQI.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleEPA.h">WFAQIScaleEPA.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleHJ6332012.h">WFAQIScaleHJ6332012.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleIMECA.h">WFAQIScaleIMECA.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleNAQI.h">WFAQIScaleNAQI.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAQIScaleUBA.h">WFAQIScaleUBA.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAggregateCommonForecast.h">WFAggregateCommonForecast.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAggregateCommonRequest.h">WFAggregateCommonRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAggregateCommonResponse.h">WFAggregateCommonResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAggregateForecastRequest.h">WFAggregateForecastRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAggregateForecastResponse.h">WFAggregateForecastResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAirPollutant.h">WFAirPollutant.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAirQualityConditions.h">WFAirQualityConditions.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAirQualityProviderAttribution.h">WFAirQualityProviderAttribution.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAirQualityProviderAttributionManager.h">WFAirQualityProviderAttributionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAirQualityProviderCompletionWrapper.h">WFAirQualityProviderCompletionWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAirQualityProviderStation.h">WFAirQualityProviderStation.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAirQualityRequest.h">WFAirQualityRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAirQualityResponse.h">WFAirQualityResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFAttribution.h">WFAttribution.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFChangeForecast.h">WFChangeForecast.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFChangeForecastRequest.h">WFChangeForecastRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFDailyForecastRequest.h">WFDailyForecastRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFDefaultFavoritesProvider.h">WFDefaultFavoritesProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFFavoriteLocationRequest.h">WFFavoriteLocationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFFavoriteLocationResponse.h">WFFavoriteLocationResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFForecastDataParserUtils.h">WFForecastDataParserUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFForecastRequest.h">WFForecastRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFForecastResponse.h">WFForecastResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFGeocodeRequest.h">WFGeocodeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFGeocodeResponse.h">WFGeocodeResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFHourlyForecastRequest.h">WFHourlyForecastRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFInternalAppSettings.h">WFInternalAppSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFJSONStructureLeafNode.h">WFJSONStructureLeafNode.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFLocation.h">WFLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFLocationQueryGeocode.h">WFLocationQueryGeocode.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFLocationQueryGeocodeCache.h">WFLocationQueryGeocodeCache.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFNetworkBehaviorMonitor.h">WFNetworkBehaviorMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFNetworkEvent.h">WFNetworkEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFNetworkFailTracker.h">WFNetworkFailTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFNetworkRetryManager.h">WFNetworkRetryManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFNextHourPrecipitation.h">WFNextHourPrecipitation.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFNextHourPrecipitationCondition.h">WFNextHourPrecipitationCondition.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFNextHourPrecipitationDescription.h">WFNextHourPrecipitationDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFNextHourPrecipitationMinute.h">WFNextHourPrecipitationMinute.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFParsedForecastData.h">WFParsedForecastData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFPollenConditions.h">WFPollenConditions.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFQueryDispatcher.h">WFQueryDispatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFReachabilityConfigurationRequest.h">WFReachabilityConfigurationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFReachabilityConfigurationResponse.h">WFReachabilityConfigurationResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFRemoteAppSettings.h">WFRemoteAppSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFRequestFormattingRules.h">WFRequestFormattingRules.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFResponse.h">WFResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFResponseParsingRules.h">WFResponseParsingRules.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFServiceConnection.h">WFServiceConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFServiceReachabilityObserver.h">WFServiceReachabilityObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFSettingsManager.h">WFSettingsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFSevereWeatherEvent.h">WFSevereWeatherEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTask.h">WFTask.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTaskIdentifier.h">WFTaskIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTemperature.h">WFTemperature.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTemperatureFormatter.h">WFTemperatureFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTemperatureUnitChangeRequest.h">WFTemperatureUnitChangeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTemperatureUnitObserver.h">WFTemperatureUnitObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTemperatureUnitProvider.h">WFTemperatureUnitProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTemperatureUnitRequest.h">WFTemperatureUnitRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTemperatureUnitResponse.h">WFTemperatureUnitResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFTypes.h">WFTypes.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFURLComponents.h">WFURLComponents.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFUserDefaultsPersistence.h">WFUserDefaultsPersistence.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFUserInfoManager.h">WFUserInfoManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherAlmanacParserV3.h">WFWeatherAlmanacParserV3.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherAlmanacRequestFormatterV3.h">WFWeatherAlmanacRequestFormatterV3.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherChannelAPIConfiguration.h">WFWeatherChannelAPIConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherChannelParserV2.h">WFWeatherChannelParserV2.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherChannelParserV3.h">WFWeatherChannelParserV3.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherChannelRequestFormatterV2.h">WFWeatherChannelRequestFormatterV2.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherChannelRequestFormatterV3.h">WFWeatherChannelRequestFormatterV3.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherChannelValidator.h">WFWeatherChannelValidator.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherConditions.h">WFWeatherConditions.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherDataServiceAPIConfiguration.h">WFWeatherDataServiceAPIConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherDataServiceParserMetadataV1.h">WFWeatherDataServiceParserMetadataV1.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherDataServiceParserV1.h">WFWeatherDataServiceParserV1.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherDataServiceRequestFormatterV1.h">WFWeatherDataServiceRequestFormatterV1.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherDataServiceRequestSigner.h">WFWeatherDataServiceRequestSigner.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherEventConfig.h">WFWeatherEventConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherEventsConfig.h">WFWeatherEventsConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherHistorical1DayParserV2.h">WFWeatherHistorical1DayParserV2.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherHistorical1DayRequestFormatterV2.h">WFWeatherHistorical1DayRequestFormatterV2.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherHistorical30DayParserV3.h">WFWeatherHistorical30DayParserV3.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherHistorical30DaysRequestFormatterV3.h">WFWeatherHistorical30DaysRequestFormatterV3.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherStoreCache.h">WFWeatherStoreCache.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherStoreCallbackWrapper.h">WFWeatherStoreCallbackWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherStoreResponseDataWrapper.h">WFWeatherStoreResponseDataWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherStoreService.h">WFWeatherStoreService.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherStoreServiceConfiguration.h">WFWeatherStoreServiceConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherUndergroundParser.h">WFWeatherUndergroundParser.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WFWeatherUndergroundRequestFormatter.h">WFWeatherUndergroundRequestFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherFoundation.framework/WeatherService.h">WeatherService.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

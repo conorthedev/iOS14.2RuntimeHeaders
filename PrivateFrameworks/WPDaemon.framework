@@ -1,0 +1,86 @@
+<HTML>
+<HEAD>
+<TITLE>WPDaemon.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WPDaemon.framework
+28 classes
+
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/Endpoint.h">Endpoint.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/PipeDataTransfer.h">PipeDataTransfer.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/PipeInfo.h">PipeInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPAdvertisingRequest.h">WPAdvertisingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPAdvertisingRequestsQueue.h">WPAdvertisingRequestsQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPCharacteristic.h">WPCharacteristic.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDAdvertisingData.h">WPDAdvertisingData.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDAdvertisingManager.h">WPDAdvertisingManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDClient.h">WPDClient.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDConnection.h">WPDConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDManager.h">WPDManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDObjectDiscoveryClient.h">WPDObjectDiscoveryClient.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDObjectDiscoveryData.h">WPDObjectDiscoveryData.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDObjectDiscoveryManager.h">WPDObjectDiscoveryManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDPendingCompletions.h">WPDPendingCompletions.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDPersistence.h">WPDPersistence.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDPipeManager.h">WPDPipeManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDScanManager.h">WPDScanManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDSearchPartyAgent.h">WPDSearchPartyAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDStat.h">WPDStat.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDState.h">WPDState.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDStatsManager.h">WPDStatsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDXPCInterfaces.h">WPDXPCInterfaces.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDZoneManager.h">WPDZoneManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPDaemonServer.h">WPDaemonServer.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPPeerTrackingRequest.h">WPPeerTrackingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPScanRequest.h">WPScanRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WPDaemon.framework/WPZoneTrackingRequest.h">WPZoneTrackingRequest.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

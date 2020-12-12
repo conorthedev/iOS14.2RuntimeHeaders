@@ -1,0 +1,105 @@
+<HTML>
+<HEAD>
+<TITLE>WeatherAnalytics.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WeatherAnalytics.framework
+47 classes
+
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAAQIAvailabilityData.h">WAAQIAvailabilityData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAAQIData.h">WAAQIData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAAppData.h">WAAppData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAAppSessionEndEvent.h">WAAppSessionEndEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAAppSessionStartEvent.h">WAAppSessionStartEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WACellularRadioAccessTechnology.h">WACellularRadioAccessTechnology.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WACoarseLocationData.h">WACoarseLocationData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WACoarseLocationStatus.h">WACoarseLocationStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WADataTableExposureEvent.h">WADataTableExposureEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WADebugData.h">WADebugData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WADeviceData.h">WADeviceData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WADeviceOrientation.h">WADeviceOrientation.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WADevicePlatform.h">WADevicePlatform.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAEndReason.h">WAEndReason.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAFollowingLocationListData.h">WAFollowingLocationListData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAFollowingLocationListEvent.h">WAFollowingLocationListEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAInterfaceOrientation.h">WAInterfaceOrientation.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WALinkTapEvent.h">WALinkTapEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAListViewEvent.h">WAListViewEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WALocationAccessData.h">WALocationAccessData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WALocationCondition.h">WALocationCondition.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WALocationConditionData.h">WALocationConditionData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WALocationData.h">WALocationData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WALocationExposureEvent.h">WALocationExposureEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WALocationListPositionData.h">WALocationListPositionData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WALocationViewEvent.h">WALocationViewEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAMobileData.h">WAMobileData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WANetworkEventData.h">WANetworkEventData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WANetworkEventType.h">WANetworkEventType.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAOrientationData.h">WAOrientationData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAOsInstallVariant.h">WAOsInstallVariant.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAPrivateUserData.h">WAPrivateUserData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAProviderDataOrigination.h">WAProviderDataOrigination.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAReferralData.h">WAReferralData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WASessionData.h">WASessionData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WASessionEndData.h">WASessionEndData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAStartMethod.h">WAStartMethod.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WATelemetryEvent.h">WATelemetryEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WATemperatureScale.h">WATemperatureScale.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WATemperatureScaleChangeEvent.h">WATemperatureScaleChangeEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WATemperatureScaleData.h">WATemperatureScaleData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAURLData.h">WAURLData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAUserData.h">WAUserData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAViewAction.h">WAViewAction.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAViewData.h">WAViewData.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAViewEvent.h">WAViewEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WeatherAnalytics.framework/WAViewType.h">WAViewType.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>
